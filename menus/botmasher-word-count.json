@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle botmasher-word-count",
+        "command": "botmasher-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "botmasher-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "botmasher-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

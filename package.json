@@ -1,0 +1,18 @@
+{
+  "name": "botmasher-word-count",
+  "main": "./lib/botmasher-word-count",
+  "version": "0.0.0",
+  "description": "Toggle word count display modal",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "botmasher-word-count:toggle"
+  },
+  "repository": "https://github.com/atom/botmasher-word-count",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
